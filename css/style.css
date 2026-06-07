@@ -1,4 +1,3 @@
-/* RESET BÁSICO E VARIÁVEIS */
 :root {
     --f1-red: #e10600;
 }
@@ -7,21 +6,18 @@ body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-/* HERO IMAGE (MANTÉM O SEU ESTILO ORIGINAL, COM AJUSTE DE ALTURA) */
 .hero-image {
     height: 400px;
-    background: url('../Images/hero.png') center/cover no-repeat; /* Corrigido para carregar da pasta raiz considerando que o CSS está em /css */
+    background: url('../Images/hero.png') center/cover no-repeat;
     background-color: #222;
     border-bottom: 5px solid var(--f1-red);
 }
 
-/* AJUSTES NO TEXTO DO ARTIGO */
 .artigo p {
     line-height: 1.8;
     text-align: justify;
 }
 
-/* AJUSTES FOCADOS PARA IMAGENS NOS CARDS DE EQUIPE */
 .card-img-top {
     height: 140px;
     object-fit: contain;
